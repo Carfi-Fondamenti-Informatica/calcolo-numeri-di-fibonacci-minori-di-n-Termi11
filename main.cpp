@@ -2,14 +2,22 @@
 using namespace std;
 
 int main() {
-   int n=0, x1=0, x2=1, xf=x1+x2;
+   int n=0, a=0, b=1, c;
     cin >> n;
-    cout << "1" << endl;
-    for(int i=0; i<=(n-1);i++){
-            cout << xf << endl;
-            x1=x2;
-            x2=xf;
-            xf=x1+x2;
-       }
+    if (n<=0) {
+       cout << " ";
+    }else{
+       cout << "1" << endl;
+       for(int i=0; i<n; i++) {
+            c = a + b;
+            a = b;
+            b = c;
+            if (c<=n){
+               cout << c << endl;
+            }else{
+               breal;
+            }
+    }
+        }
    return 0;
 }
