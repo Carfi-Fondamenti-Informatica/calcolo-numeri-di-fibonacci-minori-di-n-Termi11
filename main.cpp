@@ -15,7 +15,7 @@ int main() {
             if (c<=n){
                cout << c << endl;
             }else{
-               breal;
+               break;
             }
     }
         }
